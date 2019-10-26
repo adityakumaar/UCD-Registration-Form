@@ -1,13 +1,13 @@
-$('.btn-enregistrer').click(function() {
-  $('.connexion').addClass('remove-section');
-	$('.enregistrer').removeClass('active-section');
-  $('.btn-enregistrer').removeClass('active');
-  $('.btn-connexion').addClass('active');
+$('.btn-faculty').click(function() {
+  $('.student').addClass('remove-section');
+	$('.faculty').removeClass('active-section');
+  $('.btn-faculty').removeClass('active');
+  $('.btn-student').addClass('active');
 });
 
-$('.btn-connexion').click(function() {
-  $('.connexion').removeClass('remove-section');
-	$('.enregistrer').addClass('active-section');	
-  $('.btn-enregistrer').addClass('active');
-  $('.btn-connexion').removeClass('active');
+$('.btn-student').click(function() {
+  $('.student').removeClass('remove-section');
+	$('.faculty').addClass('active-section');	
+  $('.btn-faculty').addClass('active');
+  $('.btn-student').removeClass('active');
 });

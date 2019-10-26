@@ -101,7 +101,7 @@ a:not(.active) {
 	transition: color 0.5s ease-in;
 }
 
-.connexion {
+.student {
 	position: absolute;
 	padding: 15% 13%;
 	width: 74%;
@@ -110,21 +110,21 @@ a:not(.active) {
 	transition: all 0.7s;
 }
 
-.connexion h2 {
+.student h2 {
 	display: inline;
 	margin: 20px;
 	padding-bottom: 3px;
 	border-bottom: 2px solid #0275DE;
 }
 
-.connexion h4 {
+.student h4 {
 	margin-bottom: 0;
 	text-align: center;
 	color: #ffffff;
 	opacity: 0.3;
 }
 
-.connexion h4:hover {
+.student h4:hover {
 	opacity: 0.8;
 	transition: all 0.1s ease-in;
 }
@@ -203,7 +203,7 @@ input.submit {
 	stroke-dashoffset: -32;
 }
 
-.enregistrer {
+.faculty {
 	position: absolute;
 	padding: 15% 13%;
 	width: 74%;
